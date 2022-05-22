@@ -1,0 +1,186 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(/fotos/camera.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar-toggler{
+    margin-bottom:3px;
+}
+.form-control{
+    margin-bottom:3px;
+}
+nav:not(div){
+    opacity: 0.7;
+    padding-bottom:0px!important;
+}
+.container-my{
+    height: 590px;
+    width: 100%;
+    
+}
+.form-control{
+    border: 0px;
+}
+/* .container .caixa-texto {
+    background-image: url(https://image.shutterstock.com/image-photo/wood-flooring-glass-office-atmosphere-600w-1023226327.jpg);
+    opacity: 0.59;
+    background-size: cover ;
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    margin: 1% auto;
+    border-radius: 20px;
+} */
+.caixa-fundo:not(.fotoperfil){
+
+    margin-left: 28%;
+    margin-top:40%;
+    border-radius: 10%;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 10px 0px 168px 32px #b184606b;
+    width: 40%;
+    overflow: hidden;
+    position: relative;
+}
+.caixa-fundo-inf{
+    margin-left: 28%;
+    margin-top:2%;
+    border-radius: 10%;
+    border: 1px solid #ffffff;
+    box-shadow: 10px 0px 168px 32px #b184606b;
+    width: 40%;
+    overflow: hidden;
+    position: relative;
+    transform:rotateY(60deg)
+}
+.fotoperfil{
+    height: 98%;
+    width: 100%;
+
+}
+.titulo{
+    text-align: center;
+    font-size:1.079rem;
+    margin-left:1px
+    
+}
+.subtitulo{
+    text-align: center;
+    font-size: 1.079rem;
+}
+/* KEYFRAME TITULO */
+.subtitulo {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 6s steps(26) alternate , blink 2800ms steps(26) alternate ;
+    border-right: 10px;
+}
+@keyframes typewriter {
+    from {
+    width: 0%;
+}
+to{
+    width: 101%;
+}
+}
+@keyframes blink {
+    from {
+    border-color: rgb(0, 0, 0);
+    }
+to{
+    border-color: #000;
+}
+}
+
+.titulo {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(106) alternate , blink 2800ms steps(26) alternate ;
+    border-right: 20px transparent;
+}
+@keyframes typewriter {
+    from {
+    width: 0%;
+}
+to{
+    width: 101%;
+}
+}
+@keyframes blink {
+    from {
+    border-color:transparent;
+    }
+to{
+    border-color:transparent;
+}
+}
+/* BLOCO FOTOGRAFIA*/
+.foto-container{
+    background-color:rgb(19, 22, 22);
+}
+.titulo-foto{
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    background-color: #cda476a9;
+}
+.img-thumbnail {
+    margin:3px 0px;
+}
+
+.botao-vermais{
+    
+    opacity: 0.7;
+    margin:8px 0px;
+    margin-left: 12%;
+    width: 76%;
+}
+.btn:hover{
+    opacity: 1.0;
+}
+/* BLOCO POESIAS */
+.titulo-poesia{
+    font-size: 2.2rem;
+    width: 100%;
+    text-align: center;
+    background-color: #c09a6f63;
+}
+.ajuste-perfil{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+
+.poesias:not(.sem-peso){
+    margin:1% 0%;
+    background-image:url(https://cdn.pixabay.com/photo/2012/03/01/00/28/abstract-19616_960_720.jpg);
+    opacity:0.8;
+}
+.sem-peso{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.crianca{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.nome-poesias{
+    margin-top:11px;
+}
+.intermediar{
+    width: 80%;
+    height: 5px;
+    background-color: #ffffff;
+    margin-left:9%;
+    margin-bottom: 1%;
+}
+#botao-poesia{
+    margin-bottom:10px;
+}
+/* BLOCO PROJETOS*/
+.caixa-projetos{
+    background-color: #ffffff;
+    height: 800px;
+}

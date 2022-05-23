@@ -1,0 +1,21 @@
+/* trabalhar a ideia da historia até aqui*/
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(/fotos/camera.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar-toggler {
+    margin-bottom: 3px;
+}
+
+.form-control {
+    margin-bottom: 3px;
+}
+
+nav:not(div) {
+    opacity: 0.7;
+    padding-bottom: 0px !important;
+}

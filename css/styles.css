@@ -265,9 +265,11 @@ footer {
     margin: 10% 4%;
     margin-bottom: 9%;
 }
+.list-group{
+    border-radius:20px;
+}
 
 .list-group-horizontal {
-    border-radius: 39px;
     margin-top: 20px;
     display: flex;
     align-content: space-between;

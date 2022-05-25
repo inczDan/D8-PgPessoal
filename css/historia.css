@@ -1,10 +1,7 @@
 /* trabalhar a ideia da historia até aqui*/
 
 body {
-    height: 100%;
-    width: 100%;
     background-image: url(/fotos/camera.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
 }
 .navbar-toggler {
@@ -18,4 +15,30 @@ body {
 nav:not(div) {
     opacity: 0.7;
     padding-bottom: 0px !important;
+}
+.titulo-apresentacao{
+    width: 80%;
+    margin:60px auto;
+    color: aliceblue;
+}
+.titulo-pessoal{
+    margin:0px 26px;
+    font-size:1.6rem;
+}
+.conteudo-historia{
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+.col{
+    flex-wrap: wrap;
+    border-radius: 20px;
+    width: auto;
+    display: flex;
+    /* align-items: center; */
+    background-color: aliceblue;
+}
+
+.primeiro-titulo{
+    text-align: center;
 }

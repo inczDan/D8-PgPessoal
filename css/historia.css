@@ -3,8 +3,6 @@
 body {
     background-image: url(/fotos/camera.jpg);
     background-image: cover;
-
-
 }
 
 .navbar-toggler {
@@ -20,11 +18,17 @@ nav:not(div) {
     padding-bottom: 0px !important;
 }
 
+
 .botao-resumo {
     width: 50%;
+    margin:auto;
+    margin-bottom: 20%;
 }
 
 /*Conteudo historia */
+.container-principal{
+ width: 95%;
+}
 .titulo-apresentacao {
     width: 80%;
     margin: 60px auto;
@@ -95,4 +99,33 @@ nav:not(div) {
 
 .icon-linkedin {
     width: 40px;
+}
+/* FIM MOBILE INICIO DESKTOP*/
+
+@media screen and (min-width: 1000px){
+    .botao-resumo {
+        width: 31%;
+        
+    }
+    .titulo-pessoal {
+        margin: 0px 17%;
+        font-size: 2.2rem;
+        
+    }
+    .div-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media screen and (min-width: 1450px){
+    .botao-resumo {
+        width: 18%;
+        margin-top: 10%;
+        
+    }
+
+
+    
 }

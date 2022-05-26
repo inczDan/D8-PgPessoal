@@ -251,18 +251,19 @@ nav:not(div) {
 
 /* INICIO FOOTER*/
 
-footer {
+.rodape {
     background-color: #2e251e6b;
-    height: 165px;
+    height: fit-content;
     width: 99%;
     margin-left: 0.5%;
+    margin-right: 0.5%;
 }
 
 .titulo-footer {
     text-align: center;
     font-size: 1.5rem;
-    color: #fff;
-    margin: 10% 4%;
+    color: #ffffff;
+    margin: 0% 4%;
     margin-bottom: 9%;
 }
 .list-group{

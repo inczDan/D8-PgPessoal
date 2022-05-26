@@ -2,8 +2,11 @@
 
 body {
     background-image: url(/fotos/camera.jpg);
-    background-repeat: no-repeat;
+    background-image: cover;
+
+
 }
+
 .navbar-toggler {
     margin-bottom: 3px;
 }
@@ -16,29 +19,80 @@ nav:not(div) {
     opacity: 0.7;
     padding-bottom: 0px !important;
 }
-.titulo-apresentacao{
+
+.botao-resumo {
+    width: 50%;
+}
+
+/*Conteudo historia */
+.titulo-apresentacao {
     width: 80%;
-    margin:60px auto;
+    margin: 60px auto;
     color: aliceblue;
 }
-.titulo-pessoal{
-    margin:0px 26px;
-    font-size:1.6rem;
+
+.titulo-pessoal {
+    margin: 0px 26px;
+    font-size: 1.6rem;
 }
-.conteudo-historia{
+
+.conteudo-historia {
+
     align-content: space-around;
     display: flex;
     flex-direction: column;
 }
-.col{
-    flex-wrap: wrap;
+
+.col {
+    background-color: aliceblue;
+    flex-direction: column;
     border-radius: 20px;
     width: auto;
     display: flex;
-    /* align-items: center; */
-    background-color: aliceblue;
+    margin-bottom: 7%;
 }
 
-.primeiro-titulo{
+.primeiro-titulo {
     text-align: center;
+}
+
+/* INICIO FOOTER*/
+
+.rodape {
+    background-color: #2e251e6b;
+    height: fit-content;
+    width: 99%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.titulo-footer {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 0% 4%;
+    margin-bottom: 9%;
+}
+
+.list-group {
+    border-radius: 20px;
+}
+
+.list-group-horizontal {
+    margin-top: 20px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.icon-git {
+    width: 40px;
+}
+
+.icon-insta {
+    width: 40px;
+}
+
+.icon-linkedin {
+    width: 40px;
 }

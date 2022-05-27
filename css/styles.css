@@ -29,16 +29,6 @@ nav:not(div) {
     border: 0px;
 }
 
-/* .container .caixa-texto {
-    background-image: url(https://image.shutterstock.com/image-photo/wood-flooring-glass-office-atmosphere-600w-1023226327.jpg);
-    opacity: 0.59;
-    background-size: cover ;
-    display: flex;
-    flex-direction: column;
-    width: 88%;
-    margin: 1% auto;
-    border-radius: 20px;
-} */
 .caixa-fundo:not(.fotoperfil) {
     margin-left: 28%;
     margin-top: 40%;
@@ -200,6 +190,7 @@ nav:not(div) {
 }
 
 .nome-poesias {
+    padding: 10px;
     margin-top: 11px;
 }
 
@@ -289,14 +280,98 @@ nav:not(div) {
     width: 40px;
 }
 
-/* FIM MOBILE INICIO DESKTOP*/
+/* FIM MOBILE INICIO "Desktop"*/
 
 @media screen and (min-width: 1000px) {
-    .caixa-fundo{
-        margin-top: 4%!important;
+    .container-my {
+        height: 750px;
+        width: 100%;
     }
-
-
-
-
+    .caixa-fundo{
+        margin-left: 30%!important;
+        margin-top: 12%!important;
+    }
+    .botao-historia {
+        width: 30%;
+        margin-top: 4%;
+        margin-left: 33%;
+    }
+    .titulo {
+        text-align: center;
+        font-size: 1.579rem;
+        margin-left: 0px
+    }
+    .subtitulo {
+        text-align: center;
+        font-size: 1.53rem;
+    }
+    .caixa-fundo-inf{
+        margin-left:30%;
+    }
+    .botao-historia {
+        width: 30%;
+        margin-top: 4%;
+        margin-left: 34.5%;
+    }
+    .titulo-poesia{
+        margin-top: 12%;
+    }
+    .botao-vermais{
+        font-size: 1.1rem;
+        margin-left: 11%;
+    }
+    #botao-poesia{
+        background-color: #ad89639c!important;
+        margin-left:35%;
+        width: 30%;
+    }
+    .nome-poesias {
+        font-size: 2rem;
+    }
+    .sem-peso{
+       font-size: 1.5rem;
+    }
+    .div-projetos{
+        margin-top: 12%;
+        margin-bottom: 2%;
+    }
+    .terceira-section{
+        display: flex;
+        height: 1231px;
+    }
+    .container-projetos{
+        width: 74%;
+        background-image: none;
+    }
+    .caixa-projetos{
+        margin-left: 9%;
+        height: 1161px;
+    }
+    .card{
+        width: 84%;
+    }
+    .card{
+        width:84%;
+        height:1015px;
+    }
+    .card-img-top{
+        height: 800px!important;
+        width: 386px;
+    }
+    .list-group-horizontal{
+        margin-top: 20px;
+        display: flex;
+        align-content: space-between;
+        justify-content: space-evenly;
+    }
+}
+/* CONTINUAÇÃO MEDIA DESKTOP*/
+@media screen and (min-width: 1200px){
+    .mural-fotos{
+        --bs-gutter-x: 3.5rem;
+    }
+    .secao-fotos{
+        display: flex;
+        flex-direction: column;
+    }
 }

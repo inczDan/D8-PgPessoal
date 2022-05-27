@@ -374,4 +374,52 @@ nav:not(div) {
         display: flex;
         flex-direction: column;
     }
+    .titulo-poesia {
+        margin-left: 10.5%;
+        width: 78.5%;
+    }
+    .poesias{
+        margin-left: 10.5%!important;
+        width: 78.5%!important;
+    }
+    .card {
+        width: 398px;
+        height: 1006px;
+    }
+    .div-projetos {
+        margin-left: 10.5%;
+        width: 78.5%;
+    }
+    .caixa-projetos {
+        
+        height: 1161px;
+    }
+    .terceira-section{
+        margin:0% 7%;
+    }
+    .titulo-footer {
+        margin-bottom: 6%;
+    }
+}
+/*ajuste media screen desktop*/
+@media screen and (min-width: 1400px){
+    .titulo-poesia {
+        margin-left: 15.5%;
+        width: 68.5%;
+    }
+    .poesias{
+        margin-left: 15.5%!important;
+        width: 68.5%!important;
+    }
+    .card {
+        width: 398px;
+        height: 1006px;
+    }
+    .div-projetos {
+        margin-left: 15.5%;
+        width: 68.5%;
+    }
+    .terceira-section {
+        margin: 0% 15%;
+    }
 }

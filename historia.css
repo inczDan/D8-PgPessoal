@@ -1,7 +1,7 @@
 /* trabalhar a ideia da historia até aqui*/
 
 body {
-    background-image: url(./camera.jpg);
+    background-image: url(/camera.jpg);
     background-image: cover;
 }
 

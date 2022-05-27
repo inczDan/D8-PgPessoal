@@ -1,7 +1,7 @@
 body {
     height: 100%;
     width: 100%;
-    background-image: url(/camera.jpg);
+    background: url(../fotos/camera.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -210,7 +210,7 @@ nav:not(div) {
 .container-projetos {
     height: 100%;
     width: 100%;
-    background-image: url(./camera.jpg);
+    background: url(../fotos/camera.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

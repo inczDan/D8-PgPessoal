@@ -1,7 +1,7 @@
 body {
     height: 100%;
     width: 100%;
-    background-image: url(/camera.jpg);
+    background-image: url(./camera.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -210,7 +210,7 @@ nav:not(div) {
 .container-projetos {
     height: 100%;
     width: 100%;
-    background-image: url(/camera.jpg);
+    background-image: url(./camera.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -287,138 +287,171 @@ nav:not(div) {
         height: 750px;
         width: 100%;
     }
-    .caixa-fundo{
-        margin-left: 30%!important;
-        margin-top: 12%!important;
+
+    .caixa-fundo {
+        margin-left: 30% !important;
+        margin-top: 12% !important;
     }
+
     .botao-historia {
         width: 30%;
         margin-top: 4%;
         margin-left: 33%;
     }
+
     .titulo {
         text-align: center;
         font-size: 1.579rem;
         margin-left: 0px
     }
+
     .subtitulo {
         text-align: center;
         font-size: 1.53rem;
     }
-    .caixa-fundo-inf{
-        margin-left:30%;
+
+    .caixa-fundo-inf {
+        margin-left: 30%;
     }
+
     .botao-historia {
         width: 30%;
         margin-top: 4%;
         margin-left: 34.5%;
     }
-    .titulo-poesia{
+
+    .titulo-poesia {
         margin-top: 12%;
     }
-    .botao-vermais{
+
+    .botao-vermais {
         font-size: 1.1rem;
         margin-left: 11%;
     }
-    #botao-poesia{
-        background-color: #ad89639c!important;
-        margin-left:35%;
+
+    #botao-poesia {
+        background-color: #ad89639c !important;
+        margin-left: 35%;
         width: 30%;
     }
+
     .nome-poesias {
         font-size: 2rem;
     }
-    .sem-peso{
-       font-size: 1.5rem;
+
+    .sem-peso {
+        font-size: 1.5rem;
     }
-    .div-projetos{
+
+    .div-projetos {
         margin-top: 12%;
         margin-bottom: 2%;
     }
-    .terceira-section{
+
+    .terceira-section {
         display: flex;
         height: 1231px;
     }
-    .container-projetos{
+
+    .container-projetos {
         width: 74%;
         background-image: none;
     }
-    .caixa-projetos{
+
+    .caixa-projetos {
         margin-left: 9%;
         height: 1161px;
     }
-    .card{
+
+    .card {
         width: 84%;
     }
-    .card{
-        width:84%;
-        height:1015px;
+
+    .card {
+        width: 84%;
+        height: 1015px;
     }
-    .card-img-top{
-        height: 800px!important;
+
+    .card-img-top {
+        height: 800px !important;
         width: 386px;
     }
-    .list-group-horizontal{
+
+    .list-group-horizontal {
         margin-top: 20px;
         display: flex;
         align-content: space-between;
         justify-content: space-evenly;
     }
 }
+
 /* CONTINUAÇÃO MEDIA DESKTOP*/
-@media screen and (min-width: 1200px){
-    .mural-fotos{
+@media screen and (min-width: 1200px) {
+    .mural-fotos {
         --bs-gutter-x: 3.5rem;
     }
-    .secao-fotos{
+
+    .secao-fotos {
         display: flex;
         flex-direction: column;
     }
+
     .titulo-poesia {
         margin-left: 10.5%;
         width: 78.5%;
     }
-    .poesias{
-        margin-left: 10.5%!important;
-        width: 78.5%!important;
+
+    .poesias {
+        margin-left: 10.5% !important;
+        width: 78.5% !important;
     }
+
     .card {
         width: 398px;
         height: 1006px;
     }
+
     .div-projetos {
         margin-left: 10.5%;
         width: 78.5%;
     }
+
     .caixa-projetos {
-        
+
         height: 1161px;
     }
-    .terceira-section{
-        margin:0% 7%;
+
+    .terceira-section {
+        margin: 0% 7%;
     }
+
     .titulo-footer {
         margin-bottom: 6%;
     }
 }
+
 /*ajuste media screen desktop*/
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1400px) {
     .titulo-poesia {
         margin-left: 15.5%;
         width: 68.5%;
     }
-    .poesias{
-        margin-left: 15.5%!important;
-        width: 68.5%!important;
+
+    .poesias {
+        margin-left: 15.5% !important;
+        width: 68.5% !important;
     }
+
     .card {
         width: 398px;
         height: 1006px;
     }
+
     .div-projetos {
         margin-left: 15.5%;
         width: 68.5%;
     }
+
     .terceira-section {
         margin: 0% 15%;
     }

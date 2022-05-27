@@ -40,7 +40,6 @@ nav:not(div) {
     border-radius: 20px;
 } */
 .caixa-fundo:not(.fotoperfil) {
-
     margin-left: 28%;
     margin-top: 40%;
     border-radius: 10%;
@@ -266,8 +265,9 @@ nav:not(div) {
     margin: 0% 4%;
     margin-bottom: 9%;
 }
-.list-group{
-    border-radius:20px;
+
+.list-group {
+    border-radius: 20px;
 }
 
 .list-group-horizontal {
@@ -290,3 +290,13 @@ nav:not(div) {
 }
 
 /* FIM MOBILE INICIO DESKTOP*/
+
+@media screen and (min-width: 1000px) {
+    .caixa-fundo{
+        margin-top: 4%!important;
+    }
+
+
+
+
+}
